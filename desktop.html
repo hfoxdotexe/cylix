@@ -2,8 +2,19 @@
 
 <html>
 	<head>
-		<title>Benerom Desktop</title>
+		<title>Cylix Desktop</title>
 		<style>
+			.navbar-title {
+				background-image: #222222;
+				color: white;
+				height: 32px;
+				width: 256px;
+				position: fixed;
+				z-index: 1;
+				left: 0;
+				top: 0;
+			}
+			
 			.navbar {
 				background-image: linear-gradient(#222222, #777777);
 				color: white;
@@ -12,13 +23,15 @@
 				position: fixed;
 				z-index: 1;
 				left: 0;
-				top: 0;
+				top: 32px;
 			}
 		</style>
 	</head>
 	
 	<body>
-
+		<div class="navbar-title">
+			<h2>Cylix</h2>
+		</div>
 		<div class="navbar">
 			<h2>This is the navigation bar.</h2>
 		</div>

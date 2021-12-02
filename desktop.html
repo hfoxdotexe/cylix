@@ -15,7 +15,7 @@
 				top: 0;
 			}
 			
-			.navbar {
+			.navbar-items {
 				background-color: #333333;
 				color: white;
 				height: 100%;
@@ -26,6 +26,13 @@
 				top: 64px;
 			}
 			
+			.navbar {
+				height: 100%;
+				width: 256px;
+				position: fixed;
+				z-index: 1;
+			}
+			
 			body {
 				font-family: "Calibri", sans-serif;
 				font-weight: lighter;
@@ -34,12 +41,14 @@
 	</head>
 	
 	<body>
-		
-		<div class="navbar-title">
-			<h2><center>Cylix</center></h2>
-		</div>
 		<div class="navbar">
-			<h3>This is the navigation bar.</h3>
+			<div class="navbar-title">
+				<h2><center>Cylix</center></h2>
+			</div>
+			<hr>
+			<div class="navbar-items">
+				<h3>This is the navigation bar.</h3>
+			</div>
 		</div>
 		
 	</body>
